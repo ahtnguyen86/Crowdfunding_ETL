@@ -46,6 +46,10 @@ FOREIGN KEY (subcategory_id) REFERENCES subcategory(subcategory_id),
 FOREIGN KEY (contact_id) REFERENCES contacts(contact_id)
 );
 
+
+
+
+
 select * from category
 select * from subcategory
 select * from contacts
